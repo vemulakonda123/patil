@@ -11,21 +11,33 @@
 
 body {
     font-family: "Barlow", sans-serif;
-    color: var(--body);
+    /*color: var(--body); */
     line-height: 1.7;
 }
 
 h1,h2,h4,h5,h6,
 .display-1,.display-2,.display-3,.display-4 {
     font-weight: 700;
-    color: var(--dark);
+    /*color: var(--dark);*/
 }
 h3{
-    color: #0a2c52;
+    color: #009746;
     font-weight: 800;
     -webkit-font-smoothing: antialiased;
     
 }
+.main_title h5 {
+    font-size: 3.25rem !important;
+    font-weight: 700;
+    color: #009746 !important;
+}
+.main_title p {
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 900;
+    color: #009746 !important;
+}
+
 img {
     width: 100%;
 }
@@ -40,8 +52,8 @@ a:hover {
 }
 
 section {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 40px;
+    padding-bottom: 10px;
 }
 .carousel-inner img{
     width: 100%;
@@ -54,7 +66,7 @@ section {
 /* navbar */
 
 .top-nav {
-    background-color: #047499;
+    background-color: #009746;
     color: #fff;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -87,7 +99,7 @@ section {
 }
 .pharm1{
     width: 98%;
-    background-color: #3fd192;
+    background-color: #9cda6d;
     border-radius: 10px;
     border: 1px solid black;
     height: 370px;
@@ -100,7 +112,8 @@ section {
     font-size: 15px;
 }
 .pharm1 h4{
-    font-family: 'Lobster';
+    font-family: 'Barlow';
+    color: #0047fa;
 }
 .pharm1 a {
     font-size: 20px;
@@ -111,97 +124,60 @@ section {
     color: white;
     text-decoration: none;
 }
+.whatsap .gggg {
+    position: fixed;
+    width: 48px;
+    height: 46px;
+    background: #02475b;
+    backdrop-filter: blur(40px);
+    border-radius: 4px 0 0 4px;
+    z-index: 2;
+    padding: 8px 12px;
+}
 .pharm {
     width: 85%;
     height: 60%;
     border: 1px solid #212529;
     border-radius: 44px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.gg {
+    background-color: rgb(72, 218, 5);
+    font-size: xx-large;
+    color: rgb(252, 9, 9)!important;
+}
+.main_title p {
+    margin-top: -10px;
+    margin-bottom: -2rem;
+    font-weight: 800;
+    font-size: inherit;
+    color: #e4490e !important;
+}
+.main_title h5 {
+    font-size: 3.5rem !important;
+    font-weight: 700;
+    color: #e4490e !important;
+}
+.gg .span {
+    color: darkgoldenrod;
+}
+
+.gg {
+        background-color: rgb(72, 218, 5);
+        font-size: xx-large;
+        color: rgb(252, 9, 9)!important;
+    }
+    .gg .span {
+        color: darkgoldenrod;
+    }
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    display: none;
+}
+.carousel-indicators [data-bs-target]{
+    display: none;
+}
+.carousel-inner img {
+    height: 66%;
+}
 /* .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl {
     display: flex;
     flex-wrap: inherit;
@@ -264,7 +240,7 @@ section {
 
 }
 .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
-    color: #0046af;
+    color: #009746;
 }
 .caption h3{
     color: #08e9d2;;
@@ -311,10 +287,10 @@ section {
 .ab-img{
     /* width: 90%;
     border-radius: 20px; */
-    width: 100%;
-    border-radius: 20px;
+    width: 87%;
+    border-radius: 64px;
     height: 75%;
-    margin-top: 26px;
+    margin-top: 50px;
     
 }
 .info-box {
@@ -371,7 +347,7 @@ section {
 
 #key-points {
     /* background: linear-gradient(rgba(226, 222, 221, 0.85), rgba(207, 207, 207, 0.85)), url(../img/a6.jpeg); */
-    background: linear-gradient(rgb(223 147 214 / 85%), rgba(207, 207, 207, 0.85)), url(../img/pharm3.jpg);
+    background: linear-gradient(rgb(35 232 126), rgba(92 232 216 / 85%)), url(../img/pharm3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -423,9 +399,29 @@ hhv:hover {
     font-size: 18px;
     border: 3px solid rgb(250, 65, 9);
 }
+.footer {
+    width: 100%!important;
+    background: linear-gradient(to right,#039747,#8d9132);
+    color: white;
+    padding-left: calc(var(--bs-gutter-x) * 3.5);
+    max-width: 1350px;
+    padding-bottom: 0px;
+    padding-top: 2px;
+    margin-top: -65px;
+    border-start-start-radius: 38%;
+}
+.fff .py-5 {
+    padding-top: 1rem!important;
+    padding-bottom: 0rem!important;
+}
+.fff .my-5 {
+    margin-top: 3rem!important;
+    margin-bottom: 1rem!important;
+}
+/*
 .footer{
     width: 100%!important;
-    background: linear-gradient(to right,#00093c,#2d0b00);
+    background: linear-gradient(to right,#039747,#8d9132);
     color: white;
     padding-left: calc(var(--bs-gutter-x) * 3.5);
     max-width: 1350px;
@@ -433,6 +429,7 @@ hhv:hover {
     padding-top: 39px;
     margin-top: -90px;
 }
+*/
 .footer .container{
     max-width: 1300px;
 }
@@ -462,6 +459,18 @@ hhv:hover {
     }
     .ab-img {
 
+    }
+    .main_title p {
+        margin-top: -10px;
+        margin-bottom: -2rem;
+        font-weight: 500;
+        font-size: xx-small;
+        color: #f20606 !important;
+    }
+    .main_title h5 {
+        font-size: 1.5rem !important;
+        font-weight: 700;
+        color: #e4490e !important;
     }
     .you{
         width: auto; 
@@ -503,7 +512,24 @@ hhv:hover {
     
     .caption h1 {
         font-size: 2rem!important;
-    }  
+    } 
+    .carousel-inner img {
+        width: 100%!important;
+        height: 40%!important;
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        background-color: #009746;
+    }
+    .gg {
+        background-color: rgb(72, 218, 5);
+        font-size: xx-large;
+        color: rgb(252, 9, 9)!important;
+    }
+    .gg .span {
+        color: darkgoldenrod;
+    }
+    
+/*
     .home-inner {
         background-image: url(../img/pic11.jpg);
         position: relative;
@@ -512,27 +538,35 @@ hhv:hover {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-    }
+    }*/
     .footer-1{
         flex: 0 0 auto;
         width: 100%;
     }
     .navbar {
         padding-top: 0.5rem;
-        padding-bottom: 0rem;
+        padding-bottom: 1rem;
     }
+
     .card {
         display: contents;
     }
     .logo11 {
-        width: 75%;
-        height: 34px;
-        padding-left: 29px;
-        /* font-weight: 300; */
+        width: 100%;
+        height: 36px;
+        padding-left: 10px;
+        margin-top: 8px;
     }
     .navbar-light .navbar-toggler {
         
         display: contents;
+    }
+    .carousel-inner img {
+        width: 100%;
+        height: 25%;
+        padding-left: 20px;
+        padding-right: 20px;
+        background-color: #009746;
     }
     
 }
