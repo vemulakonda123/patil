@@ -162,7 +162,7 @@ section {
 }
 
 .gg {
-        background-color: rgb(72, 218, 5);
+        background-color: #ffc107;
         font-size: xx-large;
         color: rgb(252, 9, 9)!important;
     }
@@ -518,10 +518,10 @@ hhv:hover {
         height: 40%!important;
         padding-left: 20px!important;
         padding-right: 20px!important;
-        background-color: #009746;
+        background-color: #f9fafb;
     }
     .gg {
-        background-color: rgb(72, 218, 5);
+        background-color: #f9fafb;
         font-size: xx-large;
         color: rgb(252, 9, 9)!important;
     }
@@ -566,7 +566,7 @@ hhv:hover {
         height: 25%;
         padding-left: 20px;
         padding-right: 20px;
-        background-color: #009746;
+        background-color: #f9fafb;
     }
     
 }
