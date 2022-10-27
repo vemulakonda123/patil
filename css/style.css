@@ -14,6 +14,35 @@ body {
     /*color: var(--body); */
     line-height: 1.7;
 }
+/*-----------whatapp----------*/
+.kkk {
+    width: 80px;
+    top: 500px;
+    right: 0;
+    position: absolute;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+}
+.jjjj {
+    position: fixed;
+    width: 147px;
+    height: 63px;
+    background: #02475b;
+    backdrop-filter: blur(40px);
+    border-radius: 29px 0 0 29px;
+    z-index: 2;
+    padding: 8px 20px;
+}
+.mmmm {
+    display: inline-block;
+    padding: 1px 1px;
+    cursor: pointer;
+    width: 50px;
+}
+img#nn {
+    border-radius: 32px;
+}
 
 h1,h2,h4,h5,h6,
 .display-1,.display-2,.display-3,.display-4 {
@@ -162,7 +191,7 @@ section {
 }
 
 .gg {
-        background-color: #ffc107;
+        background-color: #ffffff;
         font-size: xx-large;
         color: rgb(252, 9, 9)!important;
     }
@@ -452,6 +481,9 @@ hhv:hover {
     transition: box-shadow .15s ease-in-out;
 }
 @media (max-width: 491px) {
+    .kkk {
+        top: 320px;
+    }
     
     .logo11 {
         width: 85%;
@@ -526,7 +558,7 @@ hhv:hover {
         color: rgb(252, 9, 9)!important;
     }
     .gg .span {
-        color: darkgoldenrod;
+        color: rgb(252, 250, 247);
     }
     
 /*
